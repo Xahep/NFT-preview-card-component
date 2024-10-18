@@ -9,7 +9,7 @@ import './App.css'
 function App() {
 
   return (
-    <main className='h-screen bg-main flex justify-center items-center font-outfit'>
+    <main className='min-h-screen bg-main flex justify-center items-center font-outfit'>
       <div id="card" className='flex flex-col justify-center items-center rounded-lg bg-card w-80 p-5'>
       {/* Uso relative para que los elementos hijos se posicionen respecto a el. GROUP???*/}
         <div className="relative group cursor-pointer">
